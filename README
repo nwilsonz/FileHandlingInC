@@ -1,0 +1,19 @@
+README:
+	A Makefile is provided to compile the three programs.
+	
+	P1 is the program which utilizes the sytem calls open(), read(), and 	write().
+	
+	P2 is the program which utilies the library functions fopen(), fread() (in 		this case I used fgets() instead of fread(), and fwrite(),
+	
+	P3 is the program which utilizes memory-mapped file I/O.
+	
+	After compiling, be sure to navigate to the same directory as the programs. 		From there, run the following commands:
+		./P1 Input1.txt Input1Output.txt
+		
+		./P2 Input2.txt Input2Output.txt
+		
+		./P3 Input3.txt
+	
+	As you can see, I have provided the input text files for all three programs 		and the output files for Program 1 and Program 2. However, you are free to 		test these programs with different input. For Program 1 and 2, the output 		files should be empty.
+	
+	
